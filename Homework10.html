@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+			background-color: greenyellow;
+		}
+		a {font-size: 40pt;color: purple;font-style: italic;}
+		b {font-size: 20pt;}
+		c {font-size: 40pt;font-style: italic;}
+		box{
+			color: purple;font-size: 30pt;
+		}
+		bbq {color: yellow;}
+	</style>
+	<style type="text/css">
+		ak {font-size: large;}
+		ak em {text-decoration: underline;font-style: italic;font-size: 20pt;}
+		ul,em  {font-size: 30pt;text-decoration: initial;}
+
+
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+
+
+
+
+	
+</head>
+<body>
+<table border="1">
+	<thead>
+
+		<th colspan="3"><c>About--110306034</c></th>
+
+	</thead>
+	<tbody>
+		<tr>
+			<th rowspan="3"><img src="aa.jpg" width="200" height="150" alt="this is a picture"><br><box><bbq>personal photo</bbq></box>
+			</th>
+			<td colspan="2"><label>Name:
+				<input type="text" name="name" size="20">
+			</label><br>
+			<label>Gender:
+				<input type="radio" name="" value="Male">Male
+				<input type="radio" name="" value="Female">Female
+				<input type="radio" name="" value="Other">Other
+			</label>
+		</td>
+		<tr>
+			<td>
+				County:
+				<select name="county">
+					<option value="Taipei">Taipei</option>
+					<option value="Yilan">Yilan</option>
+					<option value="Taichung">Taichung</option>
+					<option value="Tainan">Tainan</option>
+				</select>	
+			</td>
+			<td>Birthday:
+			<input type="date" name="date">
+			</td>
+		</tr>
+		<tr>
+		<td colspan="2">
+			<label><c>E-mail:</c>
+				<input type="text" name="email" size="10" maxlength="40">
+			</label>
+		</td>
+		</tr>	
+	</tbody>
+	<tbody>
+		<tr>
+			<td><a>Hobby</a></td>
+			<td colspan="2">
+				<b><input type="checkbox" name="" value="Swimming">S</b>wimming
+				<input type="checkbox" name="" value="Volleyball">Volleyball
+				<input type="checkbox" name="" value="Movie">Movie
+				<input type="checkbox" name="" value="Game">Game
+				<input type="checkbox" name="" value="Sleep">Sleep
+			</td>
+		</tr>
+		<tr>
+			<td><a>Skill</a></td>
+			<td colspan="2">
+				<b><input type="checkbox" name="" value="Java">J</b>ava
+				<input type="checkbox" name="" value="HTML">HTML
+				<input type="checkbox" name="" value="Python">Python
+				<input type="checkbox" name="" value="Microsoft Office">Microsoft Office
+				<input type="checkbox" name="" value="Premiere">Premiere
+			</td>
+		</tr>
+		<tr>
+			<td><a>Say Something</a></td>
+			<td colspan="2">
+				<textarea type="text" name="" size="30" placeholder="Say something here. . ."></textarea>
+			</td>
+		</tr>
+	</tbody>
+	<tbody>
+		<td colspan="3">
+			<ak><em><input type="submit" >Submit</em></ak>
+			<em><input type="reset" >Clear</em>
+		</td>
+	</tbody>
+
+</body>
+</html>
